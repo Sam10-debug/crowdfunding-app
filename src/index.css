@@ -1,0 +1,52 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.green{
+	background-color: hsl(176, 50%, 47%);
+}
+.pledge{
+	color: hsl(176, 50%, 47%);
+}
+.mahogany{
+	color: hsl(0, 0%, 48%);
+}
+.ash{
+	background-color: hsl(0, 0%, 48%);
+}
+.show{
+	display: flex;
+	background-color: white;
+	position: absolute;
+	width: 80%;
+	top: 25%;
+	height: 15vh;
+	border-radius: 5px;
+	padding: 5px;
+}
+.hero{
+	background-image: url("/src/images/image-hero-desktop.jpg");
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: center;
+}
+@media screen and (max-width:768px){
+	.hero{
+		background-image: url("/src/images/image-hero-mobile.jpg");
+	}
+	nav ul{
+		width: 100%;
+	}
+	nav ul li{
+		width: 100%;
+	}
+}
+
+ input[type='range']::-webkit-slider-thumb {
+    width: 20%;
+    /*display: none;*/
+    height: 1.6vh;
+    background: green;
+    margin-top: -3px;
+    border-radius: 5px;
+}
