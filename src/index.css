@@ -61,7 +61,7 @@ h1 {
 	position: absolute;
 	width: 80%;
 	top: 25%;
-	height: 15vh;
+	height: 20vh;
 	border-radius: 5px;
 	padding: 5px;
 }
@@ -72,6 +72,7 @@ h1 {
 	background-position: center;
 }
 @media screen and (max-width:768px){
+	
 	.hero{
 		background-image: url("/src/images/image-hero-mobile.jpg");
 	}
